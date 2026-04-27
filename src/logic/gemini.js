@@ -4,7 +4,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai'
 // Initialise Gemini 1.5 Flash
 // API key comes from .env.local → VITE_GEMINI_API_KEY
 // ---------------------------------------------------------------------------
-const API_KEY = import.meta.env.VITE_GEMINI_API_KEY
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || 'GEMINI_API_KEY_PLACEHOLDER'
 
 let model = null
 
