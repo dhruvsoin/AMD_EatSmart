@@ -1,6 +1,13 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const genAI = new GoogleGenerativeAI('AIzaSyCtHd1UQGCa5MLO1bFL70qVFMlqjpkq-24');
+const apiKey = process.env.VITE_GEMINI_API_KEY || process.env.GEMINI_API_KEY;
+
+if (!apiKey) {
+  console.error('Error: API key not found. Please set VITE_GEMINI_API_KEY or GEMINI_API_KEY as an environment variable or use Node 20+ --env-file.');
+  process.exit(1);
+}
+
+const genAI = new GoogleGenerativeAI(apiKey);
 
 async function testModel(modelName) {
   try {
