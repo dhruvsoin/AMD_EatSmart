@@ -1,5 +1,5 @@
 /* ── Google Fonts ─────────────────────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,12 +7,12 @@
 
 /* ── CSS Custom Properties ────────────────────────────────────────────────── */
 :root {
-  --bg-base:     #0F0F14;
-  --bg-surface:  #1A1A24;
-  --bg-elevated: #22222F;
-  --bg-border:   #2A2A3A;
-  --accent:      #7C3AED;
-  --accent-cyan: #06B6D4;
+  --bg-base:     #F9FAFB;
+  --bg-surface:  #FFFFFF;
+  --bg-elevated: #F3F4F6;
+  --bg-border:   #E5E7EB;
+  --accent:      #10B981;
+  --accent-cyan: #F59E0B;
   --green:       #22C55E;
   --yellow:      #EAB308;
   --red:         #EF4444;
@@ -31,8 +31,8 @@ html {
 
 body {
   background-color: var(--bg-base);
-  color: #F1F1F8;
-  font-family: 'Inter', system-ui, sans-serif;
+  color: #111827;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
   line-height: 1.6;
   min-height: 100dvh;
   -webkit-font-smoothing: antialiased;
@@ -48,7 +48,7 @@ body {
   background: var(--bg-base);
 }
 ::-webkit-scrollbar-thumb {
-  background: #3A3A50;
+  background: #D1D5DB;
   border-radius: 999px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -84,13 +84,13 @@ body {
 
   /* Pill selectors */
   .pill {
-    @apply px-4 py-2 rounded-full border border-bg-border text-text-secondary
+    @apply px-4 py-2 rounded-full border border-bg-border text-text-secondary bg-white
            text-sm font-medium cursor-pointer transition-all duration-200
-           hover:border-accent hover:text-accent select-none;
+           hover:border-accent hover:text-accent select-none shadow-sm;
   }
   .pill-active {
-    @apply px-4 py-2 rounded-full border border-accent bg-accent/15 text-accent
-           text-sm font-semibold cursor-pointer transition-all duration-200 select-none;
+    @apply px-4 py-2 rounded-full border border-accent bg-accent/10 text-accent
+           text-sm font-semibold cursor-pointer transition-all duration-200 select-none shadow-sm;
   }
 
   /* Health badges */
@@ -109,15 +109,15 @@ body {
 
   /* Input */
   .input-field {
-    @apply w-full bg-bg-elevated border border-bg-border text-text-primary
-           placeholder-text-muted rounded-xl px-4 py-3 text-sm
-           focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/30
+    @apply w-full bg-white border border-bg-border text-text-primary
+           placeholder-text-muted rounded-xl px-4 py-3 text-sm shadow-sm
+           focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20
            transition-all duration-200;
   }
 
   /* Section label */
   .section-label {
-    @apply text-xs font-semibold uppercase tracking-widest text-text-muted;
+    @apply text-xs font-bold uppercase tracking-widest text-text-muted;
   }
 
   /* Gradient text */
@@ -130,9 +130,9 @@ body {
     @apply rounded-lg bg-bg-elevated overflow-hidden relative;
     background: linear-gradient(
       90deg,
-      #1A1A24 25%,
-      #22222F 50%,
-      #1A1A24 75%
+      #F3F4F6 25%,
+      #E5E7EB 50%,
+      #F3F4F6 75%
     );
     background-size: 200% 100%;
     animation: shimmer 1.5s infinite;
@@ -165,12 +165,13 @@ body {
 
 /* ── Recharts overrides ───────────────────────────────────────────────────── */
 .recharts-tooltip-wrapper .recharts-default-tooltip {
-  background-color: #1A1A24 !important;
-  border: 1px solid #2A2A3A !important;
+  background-color: #FFFFFF !important;
+  border: 1px solid #E5E7EB !important;
   border-radius: 12px !important;
-  color: #F1F1F8 !important;
+  color: #111827 !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05) !important;
 }
 .recharts-cartesian-grid-horizontal line,
 .recharts-cartesian-grid-vertical line {
-  stroke: #2A2A3A !important;
+  stroke: #E5E7EB !important;
 }

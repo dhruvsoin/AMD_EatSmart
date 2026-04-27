@@ -1,39 +1,38 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,jsx}'],
-  darkMode: 'class',
   theme: {
     extend: {
       colors: {
         bg: {
-          base: '#0F0F14',
-          surface: '#1A1A24',
-          elevated: '#22222F',
-          border: '#2A2A3A',
+          base: '#F9FAFB',
+          surface: '#FFFFFF',
+          elevated: '#F3F4F6',
+          border: '#E5E7EB',
         },
         accent: {
-          DEFAULT: '#7C3AED',
-          light: '#9B59F5',
-          dim: '#3D1A78',
-          cyan: '#06B6D4',
-          'cyan-dim': '#0A4F5E',
+          DEFAULT: '#10B981',
+          light: '#34D399',
+          dim: '#D1FAE5',
+          cyan: '#F59E0B',
+          'cyan-dim': '#FEF3C7',
         },
         health: {
           green: '#22C55E',
-          'green-dim': '#14532D',
+          'green-dim': '#DCFCE7',
           yellow: '#EAB308',
-          'yellow-dim': '#713F12',
+          'yellow-dim': '#FEF08A',
           red: '#EF4444',
-          'red-dim': '#7F1D1D',
+          'red-dim': '#FEE2E2',
         },
         text: {
-          primary: '#F1F1F8',
-          secondary: '#A0A0B8',
-          muted: '#5A5A72',
+          primary: '#111827',
+          secondary: '#4B5563',
+          muted: '#9CA3AF',
         },
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         xl: '1rem',
@@ -41,15 +40,15 @@ export default {
         '3xl': '1.5rem',
       },
       boxShadow: {
-        card: '0 4px 24px rgba(0,0,0,0.4)',
-        glow: '0 0 20px rgba(124,58,237,0.35)',
-        'glow-green': '0 0 16px rgba(34,197,94,0.3)',
-        'glow-cyan': '0 0 20px rgba(6,182,212,0.3)',
+        card: '0 4px 12px rgba(0,0,0,0.04)',
+        glow: '0 0 20px rgba(16,185,129,0.2)',
+        'glow-green': '0 0 16px rgba(34,197,94,0.15)',
+        'glow-cyan': '0 0 20px rgba(245,158,11,0.15)',
       },
       backgroundImage: {
-        'gradient-accent': 'linear-gradient(135deg, #7C3AED 0%, #06B6D4 100%)',
-        'gradient-card': 'linear-gradient(145deg, #1A1A24 0%, #22222F 100%)',
-        'gradient-hero': 'radial-gradient(ellipse at top, #3D1A78 0%, #0F0F14 60%)',
+        'gradient-accent': 'linear-gradient(135deg, #10B981 0%, #059669 100%)',
+        'gradient-card': 'linear-gradient(145deg, #FFFFFF 0%, #F9FAFB 100%)',
+        'gradient-hero': 'radial-gradient(ellipse at top, #D1FAE5 0%, #F9FAFB 60%)',
       },
       animation: {
         'pulse-slow': 'pulse 3s ease-in-out infinite',
