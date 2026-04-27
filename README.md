@@ -1,8 +1,8 @@
-# 🚀 EatSmart AI
+# 🚀 Annam AI
 
 **Don't just track food. Decide smarter.**
 
-EatSmart AI is an intelligent, proactive nutrition decision engine built for the **AMD Prompt-A-Thon**. It replaces traditional calorie counting with real-time, context-aware AI recommendations, tailored specifically for Indian diets.
+Annam AI is an intelligent, proactive nutrition decision engine built for the **AMD Prompt-A-Thon**. It replaces traditional calorie counting with real-time, context-aware AI recommendations, tailored specifically for Indian diets.
 
 ## ✨ Key Features
 

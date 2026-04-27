@@ -19,16 +19,15 @@ export default function HomeScreen() {
       
       {/* Hero Section */}
       <section className="mt-4 flex flex-col gap-2 relative">
-        <div className="absolute -top-20 -left-20 w-64 h-64 bg-accent/20 rounded-full blur-[80px] pointer-events-none" />
-        <div className="absolute -top-10 -right-20 w-64 h-64 bg-accent-cyan/10 rounded-full blur-[80px] pointer-events-none" />
+
         
         <motion.h1 
-          className="text-4xl sm:text-5xl font-black leading-[1.1] tracking-tight text-balance"
+          className="text-5xl sm:text-6xl font-serif font-extrabold leading-[1.05] tracking-tight text-balance mt-6"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
         >
           Don't just track food. <br/>
-          <span className="gradient-text">Decide smarter.</span>
+          <span className="text-accent italic">Decide smarter.</span>
         </motion.h1>
         <motion.p 
           className="text-text-secondary mt-2 text-base max-w-[90%]"

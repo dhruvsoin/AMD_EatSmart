@@ -1,5 +1,5 @@
 /* ── Google Fonts ─────────────────────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,12 +7,12 @@
 
 /* ── CSS Custom Properties ────────────────────────────────────────────────── */
 :root {
-  --bg-base:     #F9FAFB;
+  --bg-base:     #FCFBF8;
   --bg-surface:  #FFFFFF;
-  --bg-elevated: #F3F4F6;
-  --bg-border:   #E5E7EB;
-  --accent:      #10B981;
-  --accent-cyan: #F59E0B;
+  --bg-elevated: #F5F2EA;
+  --bg-border:   #E8E3D9;
+  --accent:      #D95D39;
+  --accent-cyan: #D4AF37;
   --green:       #22C55E;
   --yellow:      #EAB308;
   --red:         #EF4444;
@@ -31,7 +31,7 @@ html {
 
 body {
   background-color: var(--bg-base);
-  color: #111827;
+  color: #2C2421;
   font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
   line-height: 1.6;
   min-height: 100dvh;
@@ -60,22 +60,22 @@ body {
 
   /* Cards */
   .card {
-    @apply bg-bg-surface border border-bg-border rounded-2xl p-5 shadow-card;
+    @apply bg-bg-surface border-0 rounded-[24px] p-6 shadow-card;
   }
   .card-elevated {
-    @apply bg-bg-elevated border border-bg-border rounded-2xl p-5 shadow-card;
+    @apply bg-bg-elevated border-0 rounded-[24px] p-6 shadow-card;
   }
 
   /* Buttons */
   .btn-primary {
-    @apply bg-gradient-accent text-white font-semibold px-6 py-3 rounded-xl
-           shadow-glow hover:opacity-90 active:scale-95 transition-all duration-200
+    @apply bg-gradient-accent text-white font-bold px-6 py-4 rounded-[20px]
+           shadow-glow hover:shadow-lg hover:opacity-95 active:scale-[0.98] transition-all duration-300
            focus:outline-none focus:ring-2 focus:ring-accent/50;
   }
   .btn-secondary {
-    @apply bg-bg-elevated border border-bg-border text-text-primary font-medium
-           px-5 py-2.5 rounded-xl hover:border-accent hover:text-accent
-           transition-all duration-200 focus:outline-none;
+    @apply bg-bg-elevated border-0 text-text-primary font-medium
+           px-6 py-3 rounded-[20px] hover:bg-[#E8E3D9]
+           transition-all duration-300 focus:outline-none shadow-sm;
   }
   .btn-ghost {
     @apply text-text-secondary hover:text-accent transition-colors duration-200
@@ -109,10 +109,10 @@ body {
 
   /* Input */
   .input-field {
-    @apply w-full bg-white border border-bg-border text-text-primary
-           placeholder-text-muted rounded-xl px-4 py-3 text-sm shadow-sm
-           focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20
-           transition-all duration-200;
+    @apply w-full bg-white border-0 text-text-primary
+           placeholder-text-muted rounded-[20px] px-5 py-4 text-sm shadow-sm
+           focus:outline-none focus:ring-2 focus:ring-accent/20
+           transition-all duration-300;
   }
 
   /* Section label */
@@ -130,9 +130,9 @@ body {
     @apply rounded-lg bg-bg-elevated overflow-hidden relative;
     background: linear-gradient(
       90deg,
-      #F3F4F6 25%,
-      #E5E7EB 50%,
-      #F3F4F6 75%
+      #F5F2EA 25%,
+      #E8E3D9 50%,
+      #F5F2EA 75%
     );
     background-size: 200% 100%;
     animation: shimmer 1.5s infinite;
@@ -166,12 +166,12 @@ body {
 /* ── Recharts overrides ───────────────────────────────────────────────────── */
 .recharts-tooltip-wrapper .recharts-default-tooltip {
   background-color: #FFFFFF !important;
-  border: 1px solid #E5E7EB !important;
+  border: 1px solid #E8E3D9 !important;
   border-radius: 12px !important;
-  color: #111827 !important;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05) !important;
+  color: #2C2421 !important;
+  box-shadow: 0 8px 24px rgba(44, 36, 33, 0.04) !important;
 }
 .recharts-cartesian-grid-horizontal line,
 .recharts-cartesian-grid-vertical line {
-  stroke: #E5E7EB !important;
+  stroke: #E8E3D9 !important;
 }

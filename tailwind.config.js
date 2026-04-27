@@ -5,17 +5,17 @@ export default {
     extend: {
       colors: {
         bg: {
-          base: '#F9FAFB',
+          base: '#FCFBF8',
           surface: '#FFFFFF',
-          elevated: '#F3F4F6',
-          border: '#E5E7EB',
+          elevated: '#F5F2EA',
+          border: '#E8E3D9',
         },
         accent: {
-          DEFAULT: '#10B981',
-          light: '#34D399',
-          dim: '#D1FAE5',
-          cyan: '#F59E0B',
-          'cyan-dim': '#FEF3C7',
+          DEFAULT: '#D95D39',
+          light: '#F27A59',
+          dim: '#FCECE8',
+          cyan: '#D4AF37',
+          'cyan-dim': '#FBF6E9',
         },
         health: {
           green: '#22C55E',
@@ -26,13 +26,14 @@ export default {
           'red-dim': '#FEE2E2',
         },
         text: {
-          primary: '#111827',
-          secondary: '#4B5563',
-          muted: '#9CA3AF',
+          primary: '#2C2421',
+          secondary: '#5C514D',
+          muted: '#968C88',
         },
       },
       fontFamily: {
         sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+        serif: ['Playfair Display', 'Georgia', 'serif'],
       },
       borderRadius: {
         xl: '1rem',
@@ -40,15 +41,15 @@ export default {
         '3xl': '1.5rem',
       },
       boxShadow: {
-        card: '0 4px 12px rgba(0,0,0,0.04)',
-        glow: '0 0 20px rgba(16,185,129,0.2)',
+        card: '0 8px 24px rgba(44, 36, 33, 0.04)',
+        glow: '0 0 24px rgba(217, 93, 57, 0.25)',
         'glow-green': '0 0 16px rgba(34,197,94,0.15)',
-        'glow-cyan': '0 0 20px rgba(245,158,11,0.15)',
+        'glow-cyan': '0 0 20px rgba(212, 175, 55, 0.2)',
       },
       backgroundImage: {
-        'gradient-accent': 'linear-gradient(135deg, #10B981 0%, #059669 100%)',
-        'gradient-card': 'linear-gradient(145deg, #FFFFFF 0%, #F9FAFB 100%)',
-        'gradient-hero': 'radial-gradient(ellipse at top, #D1FAE5 0%, #F9FAFB 60%)',
+        'gradient-accent': 'linear-gradient(135deg, #D95D39 0%, #C2411C 100%)',
+        'gradient-card': 'linear-gradient(145deg, #FFFFFF 0%, #FCFBF8 100%)',
+        'gradient-hero': 'radial-gradient(ellipse at top, #FCECE8 0%, #FCFBF8 60%)',
       },
       animation: {
         'pulse-slow': 'pulse 3s ease-in-out infinite',

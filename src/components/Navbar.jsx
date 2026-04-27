@@ -8,12 +8,12 @@ export default function Navbar() {
   const { screen, setScreen } = useAppStore()
 
   const screenTitles = {
-    home:            null,                // home shows full hero, no title needed
-    input:           'Set Your Preferences',
+    home: null,                // home shows full hero, no title needed
+    input: 'Set Your Preferences',
     recommendations: 'Your Recommendations',
-    scan:            'Food Scan',
-    insights:        'Your Insights',
-    dailyplan:       'Daily Meal Plan',
+    scan: 'Food Scan',
+    insights: 'Your Insights',
+    dailyplan: 'Daily Meal Plan',
   }
 
   const title = screenTitles[screen]
@@ -33,26 +33,22 @@ export default function Navbar() {
           onClick={() => setScreen('home')}
           className="flex items-center gap-2 group"
         >
-          <span className="text-xl">🥗</span>
-          <span className="font-bold text-base tracking-tight">
-            <span className="gradient-text">EatSmart</span>
-            <span className="text-text-secondary font-light"> AI</span>
+          <img src="/favicon.svg" alt="Annam Logo" className="w-7 h-7 group-hover:scale-110 transition-transform duration-300" />
+          <span className="text-xl font-bold tracking-tight">
+            <span className="text-accent font-serif italic tracking-wide">Annam</span>
+            <span className="text-text-muted font-light ml-1.5 text-xs tracking-widest uppercase"></span>
           </span>
         </button>
 
         {/* Center title (appears on sub-screens) */}
         {title && (
           <p className="absolute left-1/2 -translate-x-1/2
-                        text-sm font-semibold text-text-secondary tracking-wide">
+                        text-base font-serif font-bold text-text-primary tracking-tight">
             {title}
           </p>
         )}
 
-        {/* Powered by badge */}
-        <div className="flex items-center gap-1.5 text-[10px] text-text-muted font-medium">
-          <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse-slow" />
-          <span>Gemini AI</span>
-        </div>
+
       </div>
     </header>
   )

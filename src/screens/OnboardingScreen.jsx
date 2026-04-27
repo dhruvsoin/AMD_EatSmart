@@ -36,7 +36,7 @@ export default function OnboardingScreen() {
     <div className="min-h-dvh bg-bg-base flex flex-col px-6 py-12">
       {step > 0 && (
         <div className="flex justify-between items-center mb-8">
-          <span className="text-sm font-bold text-accent tracking-widest uppercase">EatSmart AI</span>
+          <span className="text-sm font-bold text-accent tracking-widest uppercase">Annam AI</span>
           <span className="text-xs text-text-muted font-medium">Step {step} of 4</span>
         </div>
       )}
@@ -50,10 +50,10 @@ export default function OnboardingScreen() {
             exit={{ opacity: 0, x: -20 }}
             className="flex-1 flex flex-col justify-center items-center text-center"
           >
-            <div className="w-24 h-24 bg-gradient-accent rounded-full flex items-center justify-center text-4xl shadow-xl shadow-accent/20 mb-6">
-              🤖
+            <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-xl shadow-accent/20 mb-6 border border-bg-border">
+              <img src="/favicon.svg" alt="Annam Logo" className="w-12 h-12" />
             </div>
-            <h1 className="text-4xl font-black mb-3">Welcome to <span className="gradient-text">EatSmart</span></h1>
+            <h1 className="text-4xl font-black mb-3">Welcome to <span className="gradient-text">Annam</span></h1>
             <p className="text-text-secondary text-lg mb-10 max-w-[80%]">Your intelligent, proactive nutrition engine. Let's set up your profile.</p>
             
             <button 

@@ -30,7 +30,7 @@ export default function ProfileScreen() {
           {name ? name.charAt(0).toUpperCase() : 'U'}
         </div>
         <div className="flex flex-col">
-          <h3 className="text-xl font-black text-text-primary capitalize">{name || 'EatSmart User'}</h3>
+          <h3 className="text-xl font-black text-text-primary capitalize">{name || 'Annam User'}</h3>
           <p className="text-sm text-text-secondary font-medium mt-0.5">
             {age ? `${age}y` : ''} {height ? `• ${height}cm` : ''} {weight ? `• ${weight}kg` : ''}
           </p>
