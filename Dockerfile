@@ -19,4 +19,4 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 EXPOSE 80
 
 # Inject the API Key into the built JS at runtime
-CMD ["sh", "-c", "find /usr/share/nginx/html -name '*.js' | xargs sed -i \"s|GEMINI_API_KEY_PLACEHOLDER|$VITE_GEMINI_API_KEY|g\" && nginx -g 'daemon off;'"]
+CMD ["sh", "-c", "find /usr/share/nginx/html -name '*.js' -exec sed -i \"s|GEMINI_API_KEY_PLACEHOLDER|$VITE_GEMINI_API_KEY|g\" {} + && nginx -g 'daemon off;'"]

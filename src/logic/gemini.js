@@ -10,8 +10,9 @@ let model = null
 
 function getModel() {
   if (!model && API_KEY) {
+    console.log('[Annam AI] Initializing with key:', API_KEY.substring(0, 7) + '...')
     const genAI = new GoogleGenerativeAI(API_KEY)
-    model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' })
+    model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' })
   }
   return model
 }
