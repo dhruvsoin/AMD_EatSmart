@@ -108,6 +108,11 @@ Start with "Try" or "Switch to". Keep it under 25 words. Plain text only.
  * @returns {Promise<{ calories: number|string, healthScore: string, alternative: string, reason: string }>}
  */
 export async function scanFood(foodName) {
+  // Security: Basic input sanitization to prevent prompt injection or malicious input
+  const sanitizedInput = foodName.trim().substring(0, 100).replace(/[<>]/g, '')
+  
+  if (!sanitizedInput) return null
+
   const fallback = {
     calories: 'Unknown',
     healthScore: 'Yellow',

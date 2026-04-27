@@ -32,6 +32,7 @@ export default function Navbar() {
           id="navbar-logo"
           onClick={() => setScreen('home')}
           className="flex items-center gap-2 group"
+          aria-label="Annam AI Home"
         >
           <img src="/favicon.svg" alt="Annam Logo" className="w-7 h-7 group-hover:scale-110 transition-transform duration-300" />
           <span className="text-xl font-bold tracking-tight">
