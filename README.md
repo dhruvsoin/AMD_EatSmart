@@ -16,7 +16,7 @@ EatSmart AI is an intelligent, proactive nutrition decision engine built for the
 - **Frontend:** React 19, Vite
 - **Styling & Animation:** Tailwind CSS, Framer Motion (Spring Physics)
 - **State Management:** Zustand (with LocalStorage Persist)
-- **AI Integration:** Google Gemini 1.5 Flash (via `@google/generative-ai`)
+- **AI Integration:** Google Gemini 2.5 Flash (via `@google/generative-ai`)
 - **Data Visualization:** Recharts
 - **Deployment:** Vercel / GCP Cloud Run
 
