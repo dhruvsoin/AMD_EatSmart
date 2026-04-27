@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1, "name": "Poha", "category": "Breakfast", "calories": 250, "protein": 6,
+    "budget": "Low", "goalTags": ["Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "Light, low-calorie, and easy to digest — a classic Indian breakfast that won't weigh you down.",
+    "alternatives": [{ "name": "Oats Upma", "calories": 200, "caloriesSaved": 50, "improvement": "More fiber, lower glycemic index" }]
+  },
+  {
+    "id": 2, "name": "Idli (3 pieces)", "category": "Breakfast", "calories": 180, "protein": 5,
+    "budget": "Low", "goalTags": ["Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "Steamed, fermented, and virtually fat-free — one of the healthiest breakfast options available.",
+    "alternatives": [{ "name": "Ragi Idli", "calories": 160, "caloriesSaved": 20, "improvement": "Higher calcium and iron content" }]
+  },
+  {
+    "id": 3, "name": "Egg Omelette (2 eggs)", "category": "Breakfast", "calories": 200, "protein": 14,
+    "budget": "Low", "goalTags": ["Muscle Gain", "Healthy Living"], "healthScore": "Green",
+    "reason": "High-quality protein with essential amino acids — ideal fuel for muscle growth and morning energy.",
+    "alternatives": [{ "name": "Egg White Omelette", "calories": 120, "caloriesSaved": 80, "improvement": "Same protein, significantly less fat" }]
+  },
+  {
+    "id": 4, "name": "Upma", "category": "Breakfast", "calories": 280, "protein": 7,
+    "budget": "Low", "goalTags": ["Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "Semolina-based with vegetables — filling, balanced, and a great source of B vitamins.",
+    "alternatives": [{ "name": "Oats Upma", "calories": 210, "caloriesSaved": 70, "improvement": "Higher fiber, better for sustained energy" }]
+  },
+  {
+    "id": 5, "name": "Aloo Paratha (with butter)", "category": "Breakfast", "calories": 420, "protein": 8,
+    "budget": "Low", "goalTags": ["Muscle Gain"], "healthScore": "Red",
+    "reason": "Calorie-dense from butter and potato — great for bulking but not ideal for weight loss goals.",
+    "alternatives": [{ "name": "Multigrain Paratha (no butter)", "calories": 280, "caloriesSaved": 140, "improvement": "More fiber, fewer empty calories" }]
+  },
+  {
+    "id": 6, "name": "Banana", "category": "Breakfast", "calories": 90, "protein": 1,
+    "budget": "Low", "goalTags": ["Healthy Living", "Weight Loss"], "healthScore": "Green",
+    "reason": "Natural sugars provide quick energy with potassium for muscle function — a perfect on-the-go breakfast.",
+    "alternatives": [{ "name": "Apple", "calories": 70, "caloriesSaved": 20, "improvement": "Lower sugar, higher fiber content" }]
+  },
+  {
+    "id": 7, "name": "Dalia (Broken Wheat Porridge)", "category": "Breakfast", "calories": 220, "protein": 7,
+    "budget": "Low", "goalTags": ["Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "High fiber whole grain that keeps you full for hours — excellent for weight management.",
+    "alternatives": [{ "name": "Oatmeal", "calories": 190, "caloriesSaved": 30, "improvement": "Slightly lower calories, higher beta-glucan fiber" }]
+  },
+  {
+    "id": 8, "name": "Bread Toast with Butter", "category": "Breakfast", "calories": 240, "protein": 5,
+    "budget": "Low", "goalTags": ["Healthy Living"], "healthScore": "Yellow",
+    "reason": "Quick and convenient but refined carbs offer limited nutrition — acceptable occasionally.",
+    "alternatives": [{ "name": "Multigrain Toast with Peanut Butter", "calories": 220, "caloriesSaved": 20, "improvement": "More protein and healthy fats" }]
+  },
+  {
+    "id": 9, "name": "Moong Dal Chilla", "category": "Breakfast", "calories": 210, "protein": 12,
+    "budget": "Low", "goalTags": ["Muscle Gain", "Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "Protein-packed lentil crepes — one of the best high-protein breakfasts in Indian cuisine.",
+    "alternatives": [{ "name": "Egg Omelette", "calories": 200, "caloriesSaved": 10, "improvement": "Complete amino acid profile" }]
+  },
+  {
+    "id": 10, "name": "Dal Rice", "category": "Lunch", "calories": 380, "protein": 14,
+    "budget": "Low", "goalTags": ["Muscle Gain", "Healthy Living"], "healthScore": "Green",
+    "reason": "Dal + rice is a complete protein source — the amino acids in each complement the other perfectly.",
+    "alternatives": [{ "name": "Dal with Brown Rice", "calories": 340, "caloriesSaved": 40, "improvement": "Lower glycemic index, more fiber" }]
+  },
+  {
+    "id": 11, "name": "Paneer Butter Masala with Naan", "category": "Lunch", "calories": 580, "protein": 20,
+    "budget": "Medium", "goalTags": ["Muscle Gain"], "healthScore": "Red",
+    "reason": "High in protein but heavy on cream and butter — a calorie bomb that's better as an occasional treat.",
+    "alternatives": [{ "name": "Paneer Bhurji with Roti", "calories": 380, "caloriesSaved": 200, "improvement": "Same protein, far less saturated fat" }]
+  },
+  {
+    "id": 12, "name": "Grilled Chicken with Roti", "category": "Lunch", "calories": 380, "protein": 32,
+    "budget": "Medium", "goalTags": ["Muscle Gain", "Weight Loss"], "healthScore": "Green",
+    "reason": "Lean protein powerhouse — 32g of protein in one meal makes this a muscle-building champion.",
+    "alternatives": [{ "name": "Grilled Fish with Roti", "calories": 340, "caloriesSaved": 40, "improvement": "Omega-3 fatty acids, similar protein" }]
+  },
+  {
+    "id": 13, "name": "Rajma Chawal", "category": "Lunch", "calories": 400, "protein": 16,
+    "budget": "Low", "goalTags": ["Muscle Gain", "Healthy Living"], "healthScore": "Green",
+    "reason": "Kidney beans are rich in plant protein and fiber — one of the most satisfying vegetarian lunches.",
+    "alternatives": [{ "name": "Chana Salad", "calories": 280, "caloriesSaved": 120, "improvement": "Fewer carbs, same protein and fiber" }]
+  },
+  {
+    "id": 14, "name": "Biryani (Chicken)", "category": "Lunch", "calories": 550, "protein": 22,
+    "budget": "High", "goalTags": ["Muscle Gain"], "healthScore": "Yellow",
+    "reason": "Fragrant and protein-rich but heavy on oil and refined carbs — save it for special occasions.",
+    "alternatives": [{ "name": "Grilled Chicken with Brown Rice", "calories": 400, "caloriesSaved": 150, "improvement": "Cleaner macros, less oil" }]
+  },
+  {
+    "id": 15, "name": "Chole Bhature", "category": "Lunch", "calories": 620, "protein": 16,
+    "budget": "Medium", "goalTags": [], "healthScore": "Red",
+    "reason": "Deep-fried bhature with heavy chole — a classic indulgence that's very hard on your calorie budget.",
+    "alternatives": [{ "name": "Chole with Roti", "calories": 360, "caloriesSaved": 260, "improvement": "Same chickpea nutrition, skip the fried bread" }]
+  },
+  {
+    "id": 16, "name": "Khichdi", "category": "Lunch", "calories": 300, "protein": 10,
+    "budget": "Low", "goalTags": ["Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "The ultimate comfort food — easy to digest, low in fat, and perfect for a light recovery meal.",
+    "alternatives": [{ "name": "Moong Dal Khichdi", "calories": 260, "caloriesSaved": 40, "improvement": "Higher protein from moong dal" }]
+  },
+  {
+    "id": 17, "name": "Paneer Wrap", "category": "Lunch", "calories": 320, "protein": 18,
+    "budget": "Medium", "goalTags": ["Muscle Gain", "Healthy Living"], "healthScore": "Green",
+    "reason": "High protein supports muscle growth and keeps you full through the afternoon.",
+    "alternatives": [{ "name": "Grilled Chicken Wrap", "calories": 280, "caloriesSaved": 40, "improvement": "More protein, less fat" }]
+  },
+  {
+    "id": 18, "name": "Roti with Sabzi (2 rotis)", "category": "Lunch", "calories": 320, "protein": 9,
+    "budget": "Low", "goalTags": ["Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "A balanced wholesome meal — whole wheat rotis with seasonal vegetables is hard to beat for everyday nutrition.",
+    "alternatives": [{ "name": "Multigrain Roti with Sabzi", "calories": 290, "caloriesSaved": 30, "improvement": "More fiber and micronutrients" }]
+  },
+  {
+    "id": 19, "name": "Pav Bhaji", "category": "Lunch", "calories": 480, "protein": 11,
+    "budget": "Medium", "goalTags": [], "healthScore": "Yellow",
+    "reason": "The vegetable bhaji is nutritious but excess butter and refined pav push the calories up significantly.",
+    "alternatives": [{ "name": "Vegetable Khichdi", "calories": 310, "caloriesSaved": 170, "improvement": "More protein from lentils, no refined bread" }]
+  },
+  {
+    "id": 20, "name": "Veg Burger", "category": "Lunch", "calories": 450, "protein": 10,
+    "budget": "Medium", "goalTags": [], "healthScore": "Yellow",
+    "reason": "Convenient but processed — the bun is refined carbs and most patties are fried. Eat mindfully.",
+    "alternatives": [{ "name": "Grilled Chicken Sandwich", "calories": 320, "caloriesSaved": 130, "improvement": "More protein, less processed carbs" }]
+  },
+  {
+    "id": 21, "name": "Grilled Fish with Sabzi", "category": "Dinner", "calories": 340, "protein": 30,
+    "budget": "Medium", "goalTags": ["Muscle Gain", "Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "Omega-3 rich and lean — grilled fish is one of the best dinner choices for fat loss and muscle preservation.",
+    "alternatives": [{ "name": "Baked Chicken with Sabzi", "calories": 320, "caloriesSaved": 20, "improvement": "Slightly fewer calories, comparable protein" }]
+  },
+  {
+    "id": 22, "name": "Dal Tadka with Roti", "category": "Dinner", "calories": 360, "protein": 15,
+    "budget": "Low", "goalTags": ["Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "A light yet protein-rich dinner — lentils provide sustainable energy without spiking blood sugar at night.",
+    "alternatives": [{ "name": "Soup + Salad", "calories": 200, "caloriesSaved": 160, "improvement": "Much lighter, great for weight loss" }]
+  },
+  {
+    "id": 23, "name": "Palak Paneer with Roti", "category": "Dinner", "calories": 400, "protein": 18,
+    "budget": "Medium", "goalTags": ["Muscle Gain", "Healthy Living"], "healthScore": "Green",
+    "reason": "Spinach + paneer = iron, calcium, and protein in one dish — a nutritional powerhouse dinner.",
+    "alternatives": [{ "name": "Palak Tofu with Roti", "calories": 320, "caloriesSaved": 80, "improvement": "Lower fat, similar protein" }]
+  },
+  {
+    "id": 24, "name": "Chicken Curry with Rice", "category": "Dinner", "calories": 520, "protein": 28,
+    "budget": "Medium", "goalTags": ["Muscle Gain"], "healthScore": "Yellow",
+    "reason": "Protein-dense dinner but the curry and rice combo can push calories high — portion control matters.",
+    "alternatives": [{ "name": "Grilled Chicken with Dal", "calories": 380, "caloriesSaved": 140, "improvement": "Same protein, much cleaner for weight goals" }]
+  },
+  {
+    "id": 25, "name": "Aloo Paratha (Dinner)", "category": "Dinner", "calories": 440, "protein": 8,
+    "budget": "Low", "goalTags": [], "healthScore": "Red",
+    "reason": "Butter-heavy, high-carb dinner — eating this at night stores calories as fat since activity is low.",
+    "alternatives": [{ "name": "Dal Tadka with Roti", "calories": 360, "caloriesSaved": 80, "improvement": "Better protein ratio, lighter on stomach" }]
+  },
+  {
+    "id": 26, "name": "Dahi Rice", "category": "Dinner", "calories": 280, "protein": 8,
+    "budget": "Low", "goalTags": ["Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "Probiotic-rich yoghurt aids digestion — a light, soothing dinner perfect for gut health.",
+    "alternatives": [{ "name": "Raita with Multigrain Roti", "calories": 240, "caloriesSaved": 40, "improvement": "More fiber from roti, same probiotic benefit" }]
+  },
+  {
+    "id": 27, "name": "Tomato Soup", "category": "Dinner", "calories": 120, "protein": 4,
+    "budget": "Low", "goalTags": ["Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "Low calorie, antioxidant-rich, and deeply satisfying — ideal as a standalone light dinner.",
+    "alternatives": [{ "name": "Lentil Soup", "calories": 160, "caloriesSaved": -40, "improvement": "4x more protein for better satiety" }]
+  },
+  {
+    "id": 28, "name": "Mutton Biryani", "category": "Dinner", "calories": 650, "protein": 26,
+    "budget": "High", "goalTags": ["Muscle Gain"], "healthScore": "Red",
+    "reason": "Very high calorie with lots of oil — a special occasion meal, not a regular dinner choice.",
+    "alternatives": [{ "name": "Grilled Fish with Dal", "calories": 380, "caloriesSaved": 270, "improvement": "More nutritious, dramatically fewer calories" }]
+  },
+  {
+    "id": 29, "name": "Egg Bhurji with Roti", "category": "Dinner", "calories": 350, "protein": 20,
+    "budget": "Low", "goalTags": ["Muscle Gain", "Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "Quick, affordable, and protein-rich — scrambled eggs with roti is a perfect all-rounder dinner.",
+    "alternatives": [{ "name": "Egg White Bhurji with Roti", "calories": 270, "caloriesSaved": 80, "improvement": "Same protein, much lower fat" }]
+  },
+  {
+    "id": 30, "name": "Samosa (2 pieces)", "category": "Snack", "calories": 360, "protein": 6,
+    "budget": "Low", "goalTags": [], "healthScore": "Red",
+    "reason": "Deep-fried and heavy — the classic Indian snack is a calorie trap that offers almost no nutrition.",
+    "alternatives": [{ "name": "Roasted Chana", "calories": 120, "caloriesSaved": 240, "improvement": "High protein, zero frying, much more filling" }]
+  },
+  {
+    "id": 31, "name": "Chips (packet)", "category": "Snack", "calories": 300, "protein": 3,
+    "budget": "Low", "goalTags": [], "healthScore": "Red",
+    "reason": "Ultra-processed, high sodium, zero protein — satisfies cravings but adds nothing to your nutrition.",
+    "alternatives": [{ "name": "Makhana (Fox Nuts)", "calories": 100, "caloriesSaved": 200, "improvement": "Crunchy snack with protein and minerals" }]
+  },
+  {
+    "id": 32, "name": "Fruit Bowl", "category": "Snack", "calories": 130, "protein": 2,
+    "budget": "Medium", "goalTags": ["Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "Vitamins, antioxidants, and natural sugars — the cleanest snack option for health-conscious choices.",
+    "alternatives": [{ "name": "Fruit Bowl with Yoghurt", "calories": 180, "caloriesSaved": -50, "improvement": "Added protein makes it more filling" }]
+  },
+  {
+    "id": 33, "name": "Roasted Chana", "category": "Snack", "calories": 120, "protein": 8,
+    "budget": "Low", "goalTags": ["Muscle Gain", "Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "Crunchy, high-protein, low-calorie — the perfect anytime snack for any fitness goal.",
+    "alternatives": [{ "name": "Edamame", "calories": 110, "caloriesSaved": 10, "improvement": "Complete plant protein with all amino acids" }]
+  },
+  {
+    "id": 34, "name": "Biscuits (4 pieces)", "category": "Snack", "calories": 240, "protein": 3,
+    "budget": "Low", "goalTags": [], "healthScore": "Yellow",
+    "reason": "Refined sugar and flour with minimal nutrition — fine occasionally but not a smart snack habit.",
+    "alternatives": [{ "name": "Multigrain Crackers with Hummus", "calories": 180, "caloriesSaved": 60, "improvement": "More protein and fiber" }]
+  },
+  {
+    "id": 35, "name": "Sprouts Chaat", "category": "Snack", "calories": 140, "protein": 10,
+    "budget": "Low", "goalTags": ["Muscle Gain", "Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "Sprouted legumes are nutrient-dense superfoods — protein, fiber, and enzymes in one tasty bowl.",
+    "alternatives": [{ "name": "Boiled Chana Chaat", "calories": 150, "caloriesSaved": -10, "improvement": "Comparable nutrition, slightly more protein" }]
+  },
+  {
+    "id": 36, "name": "Mixed Dry Fruits", "category": "Snack", "calories": 180, "protein": 5,
+    "budget": "High", "goalTags": ["Muscle Gain", "Healthy Living"], "healthScore": "Green",
+    "reason": "Healthy fats, micronutrients, and sustained energy — a premium snack for active individuals.",
+    "alternatives": [{ "name": "Roasted Chana", "calories": 120, "caloriesSaved": 60, "improvement": "Higher protein, lower calorie budget" }]
+  },
+  {
+    "id": 37, "name": "Buttermilk (Chaas)", "category": "Snack", "calories": 70, "protein": 4,
+    "budget": "Low", "goalTags": ["Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "Probiotic-rich, hydrating, and almost zero fat — the most underrated healthy snack in Indian cuisine.",
+    "alternatives": [{ "name": "Coconut Water", "calories": 45, "caloriesSaved": 25, "improvement": "Natural electrolytes, even lighter" }]
+  },
+  {
+    "id": 38, "name": "Makhana (Fox Nuts)", "category": "Snack", "calories": 100, "protein": 4,
+    "budget": "Medium", "goalTags": ["Weight Loss", "Healthy Living"], "healthScore": "Green",
+    "reason": "Low calorie, low fat, high in magnesium — guilt-free crunchy snacking at its best.",
+    "alternatives": [{ "name": "Roasted Chana", "calories": 120, "caloriesSaved": -20, "improvement": "Double the protein for better satiety" }]
+  },
+  {
+    "id": 39, "name": "Vada Pav", "category": "Snack", "calories": 320, "protein": 7,
+    "budget": "Low", "goalTags": [], "healthScore": "Red",
+    "reason": "Deep-fried potato in a refined bun — high calorie, high sodium, and nutritionally poor.",
+    "alternatives": [{ "name": "Sprouts Chaat", "calories": 140, "caloriesSaved": 180, "improvement": "More protein, drastically fewer calories" }]
+  },
+  {
+    "id": 40, "name": "Protein Shake (Whey)", "category": "Snack", "calories": 150, "protein": 25,
+    "budget": "High", "goalTags": ["Muscle Gain"], "healthScore": "Green",
+    "reason": "Fast-absorbing protein — optimal for post-workout muscle repair and growth.",
+    "alternatives": [{ "name": "Moong Dal Chilla", "calories": 210, "caloriesSaved": -60, "improvement": "Whole food protein with more micronutrients" }]
+  }
+]
